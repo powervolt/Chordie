@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC1591C31BDC8259003D4ADE /* FretboardAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1591C21BDC8259003D4ADE /* FretboardAssets.xcassets */; };
+		AC1591CE1BDC8A4C003D4ADE /* Fretboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1591C01BDC7E27003D4ADE /* Fretboard.xib */; };
+		AC1591D01BDC92FC003D4ADE /* Fretboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1591CF1BDC92FC003D4ADE /* Fretboard.swift */; };
+		AC1591D21BDC932B003D4ADE /* GuitarString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1591D11BDC932B003D4ADE /* GuitarString.swift */; };
+		AC4446FE1BD8ABE700DFB911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4446FD1BD8ABE700DFB911 /* AppDelegate.swift */; };
+		AC4447001BD8ABE700DFB911 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4446FF1BD8ABE700DFB911 /* ViewController.swift */; };
+		AC4447031BD8ABE700DFB911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4447011BD8ABE700DFB911 /* Main.storyboard */; };
+		AC4447061BD8ABE700DFB911 /* Chordie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC4447041BD8ABE700DFB911 /* Chordie.xcdatamodeld */; };
+		AC4447081BD8ABE700DFB911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4447071BD8ABE700DFB911 /* Assets.xcassets */; };
+		AC44470B1BD8ABE700DFB911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4447091BD8ABE700DFB911 /* LaunchScreen.storyboard */; };
+		ACC64FE91BE3288300EBE753 /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC64FE81BE3288300EBE753 /* Chord.swift */; };
+		ACC64FEB1BE32C9B00EBE753 /* SmallFretboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC64FEA1BE32C9B00EBE753 /* SmallFretboard.swift */; };
+		ACF0077D1BDF42FC00A220C4 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0077C1BDF42FC00A220C4 /* UIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC1591C01BDC7E27003D4ADE /* Fretboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Fretboard.xib; path = Fretboard/Fretboard.xib; sourceTree = "<group>"; };
+		AC1591C21BDC8259003D4ADE /* FretboardAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = FretboardAssets.xcassets; path = Fretboard/FretboardAssets.xcassets; sourceTree = "<group>"; };
+		AC1591CF1BDC92FC003D4ADE /* Fretboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fretboard.swift; path = Fretboard/Views/Fretboard.swift; sourceTree = "<group>"; };
+		AC1591D11BDC932B003D4ADE /* GuitarString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuitarString.swift; path = Fretboard/Model/GuitarString.swift; sourceTree = "<group>"; };
+		AC4446FA1BD8ABE700DFB911 /* Chordie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chordie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4446FD1BD8ABE700DFB911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC4446FF1BD8ABE700DFB911 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC4447021BD8ABE700DFB911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC4447051BD8ABE700DFB911 /* Chordie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chordie.xcdatamodel; sourceTree = "<group>"; };
+		AC4447071BD8ABE700DFB911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC44470A1BD8ABE700DFB911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC44470C1BD8ABE700DFB911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC64FE81BE3288300EBE753 /* Chord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chord.swift; path = "../../../../../BB026503/Documents/iOS-Projects/Chordie/Chordie/Chord.swift"; sourceTree = "<group>"; };
+		ACC64FEA1BE32C9B00EBE753 /* SmallFretboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SmallFretboard.swift; path = "../../../../../BB026503/Documents/iOS-Projects/Chordie/Chordie/Fretboard/Views/SmallFretboard.swift"; sourceTree = "<group>"; };
+		ACF0077C1BDF42FC00A220C4 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = "../../../../../BB026503/Documents/iOS-Projects/Chordie/Chordie/Fretboard/Extention/UIView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4446F71BD8ABE700DFB911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1591BE1BDC7DE2003D4ADE /* Fretboard */ = {
+			isa = PBXGroup;
+			children = (
+				ACF0077B1BDF42D400A220C4 /* Extention */,
+				AC1591CB1BDC8655003D4ADE /* Model */,
+				AC1591C81BDC84ED003D4ADE /* View */,
+				AC1591BF1BDC7DF5003D4ADE /* Resources */,
+				AC1591C21BDC8259003D4ADE /* FretboardAssets.xcassets */,
+			);
+			name = Fretboard;
+			sourceTree = "<group>";
+		};
+		AC1591BF1BDC7DF5003D4ADE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC1591C01BDC7E27003D4ADE /* Fretboard.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AC1591C81BDC84ED003D4ADE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC1591CF1BDC92FC003D4ADE /* Fretboard.swift */,
+				ACC64FEA1BE32C9B00EBE753 /* SmallFretboard.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AC1591CB1BDC8655003D4ADE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC1591D11BDC932B003D4ADE /* GuitarString.swift */,
+				ACC64FE81BE3288300EBE753 /* Chord.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AC4446F11BD8ABE700DFB911 = {
+			isa = PBXGroup;
+			children = (
+				AC4446FC1BD8ABE700DFB911 /* Chordie */,
+				AC4446FB1BD8ABE700DFB911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4446FB1BD8ABE700DFB911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4446FA1BD8ABE700DFB911 /* Chordie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4446FC1BD8ABE700DFB911 /* Chordie */ = {
+			isa = PBXGroup;
+			children = (
+				AC1591BE1BDC7DE2003D4ADE /* Fretboard */,
+				AC4447161BD8AE5B00DFB911 /* Resources */,
+				AC4447151BD8AE4D00DFB911 /* UI */,
+				AC4447121BD8AC0C00DFB911 /* Views */,
+				AC4446FD1BD8ABE700DFB911 /* AppDelegate.swift */,
+				AC4447011BD8ABE700DFB911 /* Main.storyboard */,
+				AC4447071BD8ABE700DFB911 /* Assets.xcassets */,
+				AC4447091BD8ABE700DFB911 /* LaunchScreen.storyboard */,
+				AC44470C1BD8ABE700DFB911 /* Info.plist */,
+				AC4447041BD8ABE700DFB911 /* Chordie.xcdatamodeld */,
+			);
+			path = Chordie;
+			sourceTree = "<group>";
+		};
+		AC4447121BD8AC0C00DFB911 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AC4447151BD8AE4D00DFB911 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AC4446FF1BD8ABE700DFB911 /* ViewController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		AC4447161BD8AE5B00DFB911 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ACF0077B1BDF42D400A220C4 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				ACF0077C1BDF42FC00A220C4 /* UIView.swift */,
+			);
+			name = Extention;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4446F91BD8ABE700DFB911 /* Chordie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC44470F1BD8ABE700DFB911 /* Build configuration list for PBXNativeTarget "Chordie" */;
+			buildPhases = (
+				AC4446F61BD8ABE700DFB911 /* Sources */,
+				AC4446F71BD8ABE700DFB911 /* Frameworks */,
+				AC4446F81BD8ABE700DFB911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chordie;
+			productName = Chordie;
+			productReference = AC4446FA1BD8ABE700DFB911 /* Chordie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4446F21BD8ABE700DFB911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Bipin Budhathoki";
+				TargetAttributes = {
+					AC4446F91BD8ABE700DFB911 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = AC4446F51BD8ABE700DFB911 /* Build configuration list for PBXProject "Chordie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4446F11BD8ABE700DFB911;
+			productRefGroup = AC4446FB1BD8ABE700DFB911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4446F91BD8ABE700DFB911 /* Chordie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4446F81BD8ABE700DFB911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1591CE1BDC8A4C003D4ADE /* Fretboard.xib in Resources */,
+				AC1591C31BDC8259003D4ADE /* FretboardAssets.xcassets in Resources */,
+				AC44470B1BD8ABE700DFB911 /* LaunchScreen.storyboard in Resources */,
+				AC4447081BD8ABE700DFB911 /* Assets.xcassets in Resources */,
+				AC4447031BD8ABE700DFB911 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4446F61BD8ABE700DFB911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4447061BD8ABE700DFB911 /* Chordie.xcdatamodeld in Sources */,
+				ACC64FEB1BE32C9B00EBE753 /* SmallFretboard.swift in Sources */,
+				AC1591D21BDC932B003D4ADE /* GuitarString.swift in Sources */,
+				AC4447001BD8ABE700DFB911 /* ViewController.swift in Sources */,
+				AC4446FE1BD8ABE700DFB911 /* AppDelegate.swift in Sources */,
+				ACF0077D1BDF42FC00A220C4 /* UIView.swift in Sources */,
+				AC1591D01BDC92FC003D4ADE /* Fretboard.swift in Sources */,
+				ACC64FE91BE3288300EBE753 /* Chord.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC4447011BD8ABE700DFB911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4447021BD8ABE700DFB911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC4447091BD8ABE700DFB911 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC44470A1BD8ABE700DFB911 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC44470D1BD8ABE700DFB911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC44470E1BD8ABE700DFB911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4447101BD8ABE700DFB911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chordie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Budhathoki.Chordie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC4447111BD8ABE700DFB911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chordie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Budhathoki.Chordie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4446F51BD8ABE700DFB911 /* Build configuration list for PBXProject "Chordie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC44470D1BD8ABE700DFB911 /* Debug */,
+				AC44470E1BD8ABE700DFB911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC44470F1BD8ABE700DFB911 /* Build configuration list for PBXNativeTarget "Chordie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4447101BD8ABE700DFB911 /* Debug */,
+				AC4447111BD8ABE700DFB911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC4447041BD8ABE700DFB911 /* Chordie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC4447051BD8ABE700DFB911 /* Chordie.xcdatamodel */,
+			);
+			currentVersion = AC4447051BD8ABE700DFB911 /* Chordie.xcdatamodel */;
+			path = Chordie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC4446F21BD8ABE700DFB911 /* Project object */;
+}
